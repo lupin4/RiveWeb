@@ -40,3 +40,19 @@ To work with the projects in this repository, ensure you have the following inst
 2. Open the folder in VSCode
 3. Right click on index.html and run Live Server
 4. Check the Browser
+
+
+### Examples
+This repository includes the following examples:
+
+Basic Animation: Demonstrates loading and playing a simple Rive animation.
+Interactive Button: An interactive button that changes state based on user interaction.
+Animated Character: A character animation with multiple state machines for different actions.
+Each example is located in its respective directory with detailed instructions.
+
+### Resources
+[Rive Official Website](https://rive.app/)
+[Rive WASM/JS Runtime GitHub Repository](https://github.com/rive-app/rive-wasm)
+
+### License
+This repository is licensed under the MIT License. See the LICENSE file for more information.
