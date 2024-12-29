@@ -27,6 +27,7 @@ To work with the projects in this repository, ensure you have the following inst
 
 - [Node.js](https://nodejs.org/) (for running local development servers)
 - A modern web browser (e.g., Chrome, Firefox, Edge)
+- VS-Code with Live Server extension
 
 ### Installation
 
@@ -35,3 +36,7 @@ To work with the projects in this repository, ensure you have the following inst
    ```bash
    git clone https://github.com/yourusername/RiveWeb.git
    cd RiveWeb
+
+2. Open the folder in VSCode
+3. Right click on index.html and run Live Server
+4. Check the Browser
