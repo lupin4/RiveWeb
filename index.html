@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rive Animation Example</title>
+    <meta name="description" content="Interactive Rive Animation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Replace the div with a canvas element -->
+      <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+
+    <!-- Include the Rive JavaScript runtime -->
+    <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
+
+    <script>
+      // Initialize the Rive animation
+      const r = new rive.Rive({
+        src: "Rive.riv", // Ensure this path is correct
+        canvas: document.getElementById("canvas"),
+        autoplay: true,
+        artboard: "JumpBall-Playground", // Ensure this matches your artboard name
+        stateMachines: "State Machine 1", // Ensure this matches your state machine name
+        onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        },
+      });
+    </script>
+  </body>
+</html>
